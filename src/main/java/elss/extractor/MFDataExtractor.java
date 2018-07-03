@@ -29,7 +29,7 @@ public class MFDataExtractor {
 		try {
 			val = Double.parseDouble(value.trim());
 		} catch(NumberFormatException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return val;
 	}
